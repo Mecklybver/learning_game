@@ -469,7 +469,6 @@ let questions = [
   {
     title: "¿le gustaría pagar en efectivo o con tarjeta?",
     alternatives: [
-      "Would you like to pay in cash or by card?",
       "Would you prefer cash or card payment?",
       "Cash or card, how would you like to settle the payment?",
       "Would you like to pay in cash or by card?",
@@ -600,4 +599,5 @@ let questions = [
     correctAnswer: 1,
     file: "mp3/receipt_and_bag.mp3",
   },
+  
 ];
