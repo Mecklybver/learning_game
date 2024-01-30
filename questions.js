@@ -590,4 +590,16 @@ let questions = [
     correctAnswer: 2,
     file: "mp3/loyal.mp3",
   },
+  {
+    title: "Asegúrase de guardar su recibo en la bolsa para tenerlo todo en un solo lugar.",
+    alternatives: [
+      
+      "Be sure to place your receipt in the bag so that everything is together.",
+      "Make sure to keep your receipt in the bag to have everything in one place.",
+      "Ensure your receipt goes into the bag for convenient organization.",
+      "Keep your receipt in the bag for easy access to all your items.",
+    ],
+    correctAnswer: 1,
+    file: "/mp3/receipt_and_bag.mp3",
+  },
 ];
