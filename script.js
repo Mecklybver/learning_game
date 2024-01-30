@@ -53,6 +53,7 @@ let app = {
             element.addEventListener('click', () => {
                 // check correct answer
                 this.checkAnswer(index);
+                
             });
         });
 
@@ -81,12 +82,15 @@ let app = {
 
         let currQuestion = questions[this.currPosition];
 
+        
+
         if(currQuestion.correctAnswer ==  userSelected) {
             // correct
             console.log('correct');
             this.score++;
 
             if (currQuestion.file) {
+                playAudio("mp3/correct.mp3");
                 playAudio(currQuestion.file);
             } else{
                 console.log('no audio');
@@ -111,7 +115,9 @@ let app = {
             // not correct
             console.log('wrong');
             this.showResult(false);
-            let random = Math.floor(Math.random() * 5) ;
+            playAudio("mp3/incorrect.mp3");
+
+            let random = Math.floor(Math.random() * 6) ;
             switch (random) {
                 case 0:
                 playAudio("mp3/no.mp3")
@@ -128,6 +134,9 @@ let app = {
                     break;
                 case 4:
                 playAudio("mp3/kidding.mp3")
+                    break;
+                case 5:
+                playAudio("mp3/impossible.mp3")
                     break;
             
              

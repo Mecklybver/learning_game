@@ -359,6 +359,126 @@ let questions = [
     ],
     correctAnswer: 2,
     file: "mp3/gloves.mp3",
+  },   {
+    title: "Tarjeta de regalo",
+    alternatives: [
+     
+      "Present voucher",
+      "Gift certificate",
+      "Reward card",
+      "Gift card",
+    ],
+    correctAnswer: 3,
+    file: "mp3/giftcard.mp3",
+  },
+  {
+    title: "Descuento",
+    alternatives: [
+      
+      "Price reduction",
+      "Cut-rate",
+      "Promotional offer",
+      "Discount",
+    ],
+    correctAnswer: 3,
+    file: "mp3/discount.mp3",
+  },
+  {
+    title: "Vendedor",
+    alternatives: [
+      "Salesperson",
+      "Retailer",
+      "Sales representative",
+      "Vendor",
+    ],
+    correctAnswer: 0,
+    file: "mp3/salesperson.mp3",
+  },
+  {
+    title: "Marca",
+    alternatives: [
+      "Brand",
+      "Trademark",
+      "Label",
+      "Make",
+    ],
+    correctAnswer: 0,
+    file: "mp3/brand.mp3",
+  },
+  {
+    title: "Liquidación",
+    alternatives: [
+      
+      "Closeout sale",
+      "Clearance",
+      "Liquidation",
+      "Fire sale",
+    ],
+    correctAnswer: 1,
+    file: "mp3/clearance.mp3",
+  },
+  {
+    title: "Cliente frecuente",
+    alternatives: [
+      "Regular customer",
+      "Frequent shopper",
+      "Loyal client",
+      "Repeat buyer",
+    ],
+    correctAnswer: 0,
+    file: "mp3/regular.mp3",
+  },
+  {
+    title: "Envío gratuito",
+    alternatives: [
+      
+      "Complimentary delivery",
+      "Zero-cost shipment",
+      "Free shipping",
+      "No-charge transport",
+    ],
+    correctAnswer: 2,
+    file: "mp3/free.mp3",
+  },
+  {
+    title: "Artículo de segunda mano",
+    alternatives: [
+
+      "Pre-owned product",
+      "Used merchandise",
+      "Previously owned item",
+      "Second-hand item",
+    ],
+    correctAnswer: 3,
+    file: "mp3/second.mp3",
   }
-  
+  ,
+  {
+    title: "¿Quiere que se lo envuelva para regalo?",
+    alternatives: [
+
+      "Would you like regalation?",
+      "Is it a present?",
+      "Would you like me to gift wrap it?",
+      "Would you like to gift wrap it?",
+    ],
+    correctAnswer: 2,
+    file: "mp3/giftwrap.mp3",
+  }
+  ,
+  {
+    title: "¿Está esto en rebajas?",
+    alternatives: [
+
+      "Is this for sale?",
+      "Is this on sale?",
+      "Is this about sale?",
+      "Is this to sale?",
+    ],
+    correctAnswer: 1,
+    file: "mp3/sale.mp3",
+  }
 ];
+
+  
+
