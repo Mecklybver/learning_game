@@ -19,7 +19,7 @@ let questions = [
       "Grocery shopping",
     ],
     correctAnswer: 2,
-    file: "/mp3/do_the_shopping.mp3",
+    file: "/mp3/doshopping.mp3",
   },
   {
     title: "Ir de compras",
