@@ -1,35 +1,12 @@
 
-// function shuffleArray(array) {
-//     for (let i = array.length - 1; i > 0; i--) {
-//         const j = Math.floor(Math.random() * (i + 1));
-//         [array[i], array[j]] = [array[j], array[i]];
-//     }
-// }
-
 function shuffleArray(array) {
-    // Shuffle questions
     for (let i = array.length - 1; i > 0; i--) {
         const j = Math.floor(Math.random() * (i + 1));
         [array[i], array[j]] = [array[j], array[i]];
     }
-
-    // Shuffle alternatives within each question
-    array.forEach(question => {
-        for (let i = question.alternatives.length - 1; i > 0; i--) {
-            const j = Math.floor(Math.random() * (i + 1));
-
-            // Swap alternatives within each question
-            [question.alternatives[i], question.alternatives[j]] = [question.alternatives[j], question.alternatives[i]];
-
-            // Update correctAnswer to match the new index
-            if (question.correctAnswer === i) {
-                question.correctAnswer = j;
-            } else if (question.correctAnswer === j) {
-                question.correctAnswer = i;
-            }
-        }
-    });
 }
+
+
 
 // Example usage:
 shuffleArray(questions);
