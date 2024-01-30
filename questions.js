@@ -8,7 +8,7 @@ let questions = [
       "Bargain hunting",
     ],
     correctAnswer: 3,
-    file: "/mp3/bargain_hunting.mp3",
+    file: "mp3/bargain_hunting.mp3",
   },
 
   {
@@ -20,7 +20,7 @@ let questions = [
       "Retail expedition",
     ],
     correctAnswer: 2,
-    file: "/mp3/go_shopping.mp3",
+    file: "mp3/go_shopping.mp3",
   },
   {
     title: "Probador",
@@ -358,7 +358,7 @@ let questions = [
       "Grocery shopping",
     ],
     correctAnswer: 2,
-    file: "/mp3/doshopping.mp3",
+    file: "mp3/doshopping.mp3",
   },
   {
     title: "Tarjeta de regalo",
