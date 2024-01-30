@@ -6,9 +6,10 @@ function shuffleArray(array) {
     }
 }
 
+const audioContext = new AudioContext();
 function playAudio(filePath) {
     // Create an audio context
-    const audioContext = new AudioContext();
+ 
 
     // Create an audio buffer source node
     const audioSource = audioContext.createBufferSource();
