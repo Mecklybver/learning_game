@@ -547,7 +547,6 @@ let questions = [
   {
     title: "Recuerda revisar las ofertas especiales en la electrónica.",
     alternatives: [
-      "Remember to check out the special deals in electronics.",
       "Don't forget to explore the exclusive offers in the electronics department.",
       "Make sure to look for the special promotions in electronics.",
       "Be sure to take advantage of the electronics department's special offers.",
