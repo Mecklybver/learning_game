@@ -455,4 +455,37 @@ let questions = [
     correctAnswer: 1,
     file: "mp3/sale.mp3",
   },
+  {
+    title: "Hola, ¿en qué puedo ayudarte hoy?",
+    alternatives: [
+      "Hello, how can I help you today?",
+      "Hi, what can I assist you with today?",
+      "Greetings, how may I be of service?",
+      "Hey there, what brings you in today?",
+    ],
+    correctAnswer: 0,
+    file: "/mp3/help.mp3",
+  },
+  {
+    title: "¿le gustaría pagar en efectivo o con tarjeta?",
+    alternatives: [
+      "Would you like to pay in cash or by card?",
+      "Would you prefer cash or card payment?",
+      "Cash or card, how would you like to settle the payment?",
+      "Is your payment preference cash or card?",
+    ],
+    correctAnswer: 0,
+    file: "/mp3/would.mp3",
+  },
+  {
+    title: "¿Necesitas ayuda con la talla o el color?",
+    alternatives: [
+      "Do you need help with the size or color?",
+      "Can I assist you with the size or color?",
+      "Need assistance with size or color?",
+      "Size or color, would you like some guidance?",
+    ],
+    correctAnswer: 0,
+    file: "/mp3/sizeorcolor.mp3",
+  },
 ];

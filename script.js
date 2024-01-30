@@ -7,7 +7,6 @@ function shuffleArray(array) {
 }
 
 
-
 // Example usage:
 shuffleArray(questions);
 
