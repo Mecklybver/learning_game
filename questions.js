@@ -10,17 +10,7 @@ let questions = [
     correctAnswer: 3,
     file: "/mp3/bargain_hunting.mp3",
   },
-  {
-    title: "Hacer la compra",
-    alternatives: [
-      "Buying essentials",
-      "Purchasing necessities",
-      "Do the shopping",
-      "Grocery shopping",
-    ],
-    correctAnswer: 2,
-    file: "/mp3/doshopping.mp3",
-  },
+
   {
     title: "Ir de compras",
     alternatives: [
@@ -111,7 +101,7 @@ let questions = [
   },
   {
     title: "Etiqueta de precio",
-    alternatives: [ "Price tag", "Price label", "Product tag", "Retail tag"],
+    alternatives: ["Price tag", "Price label", "Product tag", "Retail tag"],
     correctAnswer: 0,
     file: "mp3/price_tag.mp3",
   },
@@ -162,10 +152,10 @@ let questions = [
   {
     title: "Asistente de tienda",
     alternatives: [
-        "Shop assistant",
+      "Shop assistant",
       "Store attendant",
       "Retail helper",
-      
+
       "Customer service representative",
     ],
     correctAnswer: 0,
@@ -174,10 +164,10 @@ let questions = [
   {
     title: "Comprar hasta caer",
     alternatives: [
-        "Shop till you drop",
+      "Shop till you drop",
       "Non-stop buying",
       "Exhaustive retail therapy",
-      
+
       "Endless shopping",
     ],
     correctAnswer: 0,
@@ -230,11 +220,10 @@ let questions = [
   {
     title: "gastar a manos llenas en algo",
     alternatives: [
-        "Splash out on something",
+      "Splash out on something",
       "Spend lavishly on something",
       "Go all out on something",
       "Invest in something",
-      
     ],
     correctAnswer: 0,
     file: "mp3/splash_out.mp3",
@@ -359,10 +348,21 @@ let questions = [
     ],
     correctAnswer: 2,
     file: "mp3/gloves.mp3",
-  },   {
+  },
+  {
+    title: "Hacer la compra",
+    alternatives: [
+      "Buying essentials",
+      "Purchasing necessities",
+      "Do the shopping",
+      "Grocery shopping",
+    ],
+    correctAnswer: 2,
+    file: "/mp3/doshopping.mp3",
+  },
+  {
     title: "Tarjeta de regalo",
     alternatives: [
-     
       "Present voucher",
       "Gift certificate",
       "Reward card",
@@ -374,7 +374,6 @@ let questions = [
   {
     title: "Descuento",
     alternatives: [
-      
       "Price reduction",
       "Cut-rate",
       "Promotional offer",
@@ -385,35 +384,19 @@ let questions = [
   },
   {
     title: "Vendedor",
-    alternatives: [
-      "Salesperson",
-      "Retailer",
-      "Sales representative",
-      "Vendor",
-    ],
+    alternatives: ["Salesperson", "Retailer", "Sales representative", "Vendor"],
     correctAnswer: 0,
     file: "mp3/salesperson.mp3",
   },
   {
     title: "Marca",
-    alternatives: [
-      "Brand",
-      "Trademark",
-      "Label",
-      "Make",
-    ],
+    alternatives: ["Brand", "Trademark", "Label", "Make"],
     correctAnswer: 0,
     file: "mp3/brand.mp3",
   },
   {
     title: "Liquidación",
-    alternatives: [
-      
-      "Closeout sale",
-      "Clearance",
-      "Liquidation",
-      "Fire sale",
-    ],
+    alternatives: ["Closeout sale", "Clearance", "Liquidation", "Fire sale"],
     correctAnswer: 1,
     file: "mp3/clearance.mp3",
   },
@@ -431,7 +414,6 @@ let questions = [
   {
     title: "Envío gratuito",
     alternatives: [
-      
       "Complimentary delivery",
       "Zero-cost shipment",
       "Free shipping",
@@ -443,7 +425,6 @@ let questions = [
   {
     title: "Artículo de segunda mano",
     alternatives: [
-
       "Pre-owned product",
       "Used merchandise",
       "Previously owned item",
@@ -451,12 +432,10 @@ let questions = [
     ],
     correctAnswer: 3,
     file: "mp3/second.mp3",
-  }
-  ,
+  },
   {
     title: "¿Quiere que se lo envuelva para regalo?",
     alternatives: [
-
       "Would you like regalation?",
       "Is it a present?",
       "Would you like me to gift wrap it?",
@@ -464,12 +443,10 @@ let questions = [
     ],
     correctAnswer: 2,
     file: "mp3/giftwrap.mp3",
-  }
-  ,
+  },
   {
     title: "¿Está esto en rebajas?",
     alternatives: [
-
       "Is this for sale?",
       "Is this on sale?",
       "Is this about sale?",
@@ -477,8 +454,5 @@ let questions = [
     ],
     correctAnswer: 1,
     file: "mp3/sale.mp3",
-  }
+  },
 ];
-
-  
-
