@@ -117,13 +117,13 @@ let app = {
           playAudio("mp3/kidding.mp3");
           break;
         case 4:
-          playAudio("mp3/kidding.mp3");
+          playAudio("mp3/thinkso.mp3");
           break;
         case 5:
           playAudio("mp3/impossible.mp3");
           break;
         case 6:
-          playAudio("mp3/goddness.mp3");
+          playAudio("mp3/goodness.mp3");
           break;
       }
     }
