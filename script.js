@@ -38,10 +38,12 @@ shuffleArray(questions);
 
 
 
+
 let app = {
     start: function() {
         this.currPosition = 0;
         this.score = 0;
+        bg();
         
         // get alternatives
         let alts = document.querySelectorAll('.alternative');
@@ -101,6 +103,7 @@ let app = {
 
         // show next question
         this.showQuestion(questions[this.currPosition]);
+        bg();
 
           
         }
@@ -108,8 +111,7 @@ let app = {
             // not correct
             console.log('wrong');
             this.showResult(false);
-            let random = Math.floor(Math.random() * 4) ;
-            console.log(random)
+            let random = Math.floor(Math.random() * 5) ;
             switch (random) {
                 case 0:
                 playAudio("mp3/no.mp3")
@@ -122,6 +124,9 @@ let app = {
                     break;
         
                 case 3:
+                playAudio("mp3/kidding.mp3")
+                    break;
+                case 4:
                 playAudio("mp3/kidding.mp3")
                     break;
             

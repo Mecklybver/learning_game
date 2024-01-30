@@ -357,7 +357,7 @@ let questions = [
       "Can I try these gloves on?",
       "Can I try these gants on?",
     ],
-    correctAnswer: 3,
+    correctAnswer: 2,
     file: "mp3/gloves.mp3",
   }
   

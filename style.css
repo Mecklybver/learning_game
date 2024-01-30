@@ -1,3 +1,10 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
 body {
     background: #1E90FF;
     font-family: arial;
@@ -13,12 +20,12 @@ body {
 }
 
 #wrapper div, #wrapper ul {
-    width: 50%;
+    width: 100%; /* Change to 100% for full width on small screens */
     max-width: 300px;
 }
 
 ul {
-    padding: 0px;
+    padding: 0;
 }
 
 #title {
@@ -38,13 +45,28 @@ ul {
 .alternative:hover {
     cursor: pointer;
     opacity: 0.8;
-
 }
 
 #result {
     font-weight: bold;
 }
 
-#score, #result {
+#score,
+#result {
     color: white;
+}
+
+/* Media Query for screens smaller than 600px (adjust as needed) */
+@media screen and (max-width: 600px) {
+    #wrapper div,
+    #wrapper ul {
+        width: 80%;
+      
+
+        max-width: none;
+    }
+    .alternative {
+        margin: 10px;
+
+    }
 }
