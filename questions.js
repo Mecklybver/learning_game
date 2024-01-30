@@ -493,23 +493,23 @@ let questions = [
   {
     title: "¿Qué opinas de nuestra nueva colección de moda?",
     alternatives: [
-      "What do you think of our new fashion collection?",
       "How do you feel about our latest fashion line?",
+      "What do you think of our new fashion collection?",
       "Have you checked out our new fashion collection?",
       "Any thoughts on our latest fashion arrivals?",
     ],
-    correctAnswer: 0,
+    correctAnswer: 1,
     file: "mp3/fashion.mp3",
   },
   {
     title: "Los clientes frecuentes reciben beneficios exclusivos.",
     alternatives: [
-      "Frequent customers receive exclusive benefits.",
       "Regular shoppers enjoy exclusive perks.",
       "Our loyal customers enjoy special privileges.",
       "Exclusive benefits await our frequent visitors.",
+      "Frequent customers receive exclusive benefits.",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     file: "mp3/frequent.mp3",
   },
   {
@@ -526,12 +526,12 @@ let questions = [
   {
     title: "¿Has considerado obtener nuestra tarjeta tursita?",
     alternatives: [
-      "Have you considered getting our tourist card?",
       "Did you think about getting the El Corte Inglés tourist card?",
       "Have you explored the benefits of the El Corte Inglés tourist card?",
+      "Have you considered getting our tourist card?",
       "Considering the El Corte Inglés tourist card could be beneficial.",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     file: "/mp3/tourist.mp3",
   },
   {
