@@ -36,7 +36,7 @@ let questions = [
     title: "Probador",
     alternatives: [
       "Trial room",
-      "Changing room",
+      "Changes room",
       "Fitting room",
       "Dressing room",
     ],
