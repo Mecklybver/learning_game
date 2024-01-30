@@ -490,4 +490,104 @@ let questions = [
     correctAnswer: 3,
     file: "mp3/sizeorcolor.mp3",
   },
+  {
+    title: "¿Qué opinas de nuestra nueva colección de moda?",
+    alternatives: [
+      "What do you think of our new fashion collection?",
+      "How do you feel about our latest fashion line?",
+      "Have you checked out our new fashion collection?",
+      "Any thoughts on our latest fashion arrivals?",
+    ],
+    correctAnswer: 0,
+    file: "mp3/fashion.mp3",
+  },
+  {
+    title: "Los clientes frecuentes reciben beneficios exclusivos.",
+    alternatives: [
+      "Frequent customers receive exclusive benefits.",
+      "Regular shoppers enjoy exclusive perks.",
+      "Our loyal customers enjoy special privileges.",
+      "Exclusive benefits await our frequent visitors.",
+    ],
+    correctAnswer: 0,
+    file: "mp3/frequent.mp3",
+  },
+  {
+    title: "Te recomendamos nuestra sección de productos en oferta.",
+    alternatives: [
+      "We recommend our section of discounted products.",
+      "Check out our discounted product section.",
+      "Explore our special offers on products.",
+      "Don't miss our discounted item selection.",
+    ],
+    correctAnswer: 0,
+    file: "mp3/products.mp3",
+  },
+  {
+    title: "¿Has considerado obtener nuestra tarjeta tursita?",
+    alternatives: [
+      "Have you considered getting our tourist card?",
+      "Did you think about getting the El Corte Inglés tourist card?",
+      "Have you explored the benefits of the El Corte Inglés tourist card?",
+      "Considering the El Corte Inglés tourist card could be beneficial.",
+    ],
+    correctAnswer: 0,
+    file: "/mp3/tourist.mp3",
+  },
+  {
+    title: "¿Necesitas ayuda para encontrar la sección de juguetes?",
+    alternatives: [
+      "Do you need help finding the toy section?",
+      "Need assistance locating the toy department?",
+      "Can I guide you to the toy section?",
+      "Looking for the toy department? I can help.",
+    ],
+    correctAnswer: 0,
+    file: "mp3/toy.mp3",
+  },
+  {
+    title: "Recuerda revisar las ofertas especiales en la electrónica.",
+    alternatives: [
+      "Remember to check out the special deals in electronics.",
+      "Don't forget to explore the exclusive offers in the electronics department.",
+      "Make sure to look for the special promotions in electronics.",
+      "Be sure to take advantage of the electronics department's special offers.",
+    ],
+    correctAnswer: 0,
+    file: "mp3/deals.mp3",
+  },
+  {
+    title: "¡Hola! ¿Necesitas una bolsa para tus compras?",
+    alternatives: [
+      "Hello! Do you need a bag for your purchases?",
+      "Hi there! Would you like a bag for your items?",
+      "Greetings! Need a bag for your shopping?",
+      "Hey! Would you prefer a bag for your purchases?",
+    ],
+    correctAnswer: 0,
+    file: "mp3/need_a_bag.mp3",
+  },
+  {
+    title: "¿Has probado nuestra restaurante en la azotea? ",
+    alternatives: [
+      "Have you tried our rooftop restaurant? ",
+      "Did you explore our cafeteria? ",
+      "Consider visiting our café?",
+      "Have you checked out the café?",
+    ],
+    correctAnswer: 0,
+    file: "mp3/restaurant.mp3",
+  },
+  {
+    title: "Tenemos una promoción especial para clientes leales este mes.",
+    alternatives: [
+      "We have a special promotion for loyal customers this month.",
+      "Exclusive deals await our loyal customers this month.",
+      "This month brings special offers for our loyal patrons.",
+      "Loyal customers can enjoy unique promotions this month.",
+    ],
+    correctAnswer: 0,
+    file: "mp3/loyal.mp3",
+  }
+
 ];
