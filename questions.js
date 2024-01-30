@@ -316,4 +316,49 @@ let questions = [
     correctAnswer: 2,
     file: "mp3/window.mp3",
   },
+  {
+    title: "¿Qué está buscando?",
+    alternatives: [
+      "What are you looking for?",
+      "What are you looking at?",
+      "What are you looking after?",
+      "What are you looking forward to?",
+    ],
+    correctAnswer: 0,
+    file: "mp3/lookfor.mp3",
+  },
+  {
+    title: "¿Qué talla usa?",
+    alternatives: [
+      "What size do you take??",
+      "What size do you wear?",
+      "What tage do you can?",
+      "What is your taille?",
+    ],
+    correctAnswer: 0,
+    file: "mp3/size.mp3",
+  },
+  {
+    title: "Puede recogerlo mañana",
+    alternatives: [
+      "Tomorro it is a better day",
+      "You might help tomorrow",
+      "You can manage it tomorrow",
+      "You can pick it up tomorrow",
+    ],
+    correctAnswer: 3,
+    file: "mp3/pickup.mp3",
+  },
+  {
+    title: "¿Me puedo probar estos guantes?",
+    alternatives: [
+      "Can I try these luvas on?",
+      "Can I try these shoes on?",
+      "Can I try these gloves on?",
+      "Can I try these gants on?",
+    ],
+    correctAnswer: 3,
+    file: "mp3/gloves.mp3",
+  }
+  
 ];
