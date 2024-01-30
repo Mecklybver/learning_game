@@ -122,7 +122,7 @@ let app = {
             this.showResult(false);
             playAudio("mp3/incorrect.mp3");
 
-            let random = Math.floor(Math.random() * 6) ;
+            let random = Math.floor(Math.random() * 7) ;
             switch (random) {
                 case 0:
                 playAudio("mp3/no.mp3")
@@ -142,6 +142,9 @@ let app = {
                     break;
                 case 5:
                 playAudio("mp3/impossible.mp3")
+                    break;
+                case 6:
+                playAudio("mp3/goddness.mp3")
                     break;
             
              
