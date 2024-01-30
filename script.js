@@ -93,15 +93,7 @@ let app = {
 
             this.showResult(true);
 
-          
-        }
-        else {
-            // not correct
-            console.log('wrong');
-            this.showResult(false);
-        }
-
-        // refresh stats
+              // refresh stats
         this.updateStats();
 
         // increase position
@@ -109,6 +101,43 @@ let app = {
 
         // show next question
         this.showQuestion(questions[this.currPosition]);
+
+          
+        }
+        else {
+            // not correct
+            console.log('wrong');
+            this.showResult(false);
+            let random = Math.floor(Math.random() * 4) ;
+            console.log(random)
+            switch (random) {
+                case 0:
+                playAudio("mp3/no.mp3")
+                    break;
+                case 1:
+                playAudio("mp3/sure.mp3")
+                    break;
+                case 2:
+                playAudio("mp3/try.mp3")
+                    break;
+        
+                case 3:
+                playAudio("mp3/kidding.mp3")
+                    break;
+            
+             
+            }
+            
+        }
+
+        // // refresh stats
+        // this.updateStats();
+
+        // // increase position
+        // this.increasePosition();
+
+        // // show next question
+        // this.showQuestion(questions[this.currPosition]);
     },
 
     increasePosition: function() {

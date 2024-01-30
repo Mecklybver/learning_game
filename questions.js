@@ -129,7 +129,7 @@ let questions = [
   {
     title: "Reembolso",
     alternatives: [
-      "Money back",
+      "Money backy",
       "Refund",
       "Reimbursement",
       "Return compensation",
