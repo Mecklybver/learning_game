@@ -472,9 +472,10 @@ let questions = [
       "Would you like to pay in cash or by card?",
       "Would you prefer cash or card payment?",
       "Cash or card, how would you like to settle the payment?",
+      "Would you like to pay in cash or by card?",
       "Is your payment preference cash or card?",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     file: "mp3/would.mp3",
   },
   {
@@ -484,8 +485,9 @@ let questions = [
       "Can I assist you with the size or color?",
       "Need assistance with size or color?",
       "Size or color, would you like some guidance?",
+      "Do you need help with the size or color?",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     file: "mp3/sizeorcolor.mp3",
   },
 ];
