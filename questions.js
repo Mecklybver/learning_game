@@ -464,7 +464,7 @@ let questions = [
       "Hey there, what brings you in today?",
     ],
     correctAnswer: 0,
-    file: "/mp3/help.mp3",
+    file: "mp3/help.mp3",
   },
   {
     title: "¿le gustaría pagar en efectivo o con tarjeta?",
@@ -475,7 +475,7 @@ let questions = [
       "Is your payment preference cash or card?",
     ],
     correctAnswer: 0,
-    file: "/mp3/would.mp3",
+    file: "mp3/would.mp3",
   },
   {
     title: "¿Necesitas ayuda con la talla o el color?",
@@ -486,6 +486,6 @@ let questions = [
       "Size or color, would you like some guidance?",
     ],
     correctAnswer: 0,
-    file: "/mp3/sizeorcolor.mp3",
+    file: "mp3/sizeorcolor.mp3",
   },
 ];
