@@ -552,42 +552,42 @@ let questions = [
       "Don't forget to explore the exclusive offers in the electronics department.",
       "Make sure to look for the special promotions in electronics.",
       "Be sure to take advantage of the electronics department's special offers.",
+      "Remember to check out the special deals in electronics.",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     file: "mp3/deals.mp3",
   },
   {
     title: "¡Hola! ¿Necesitas una bolsa para tus compras?",
     alternatives: [
-      "Hello! Do you need a bag for your purchases?",
       "Hi there! Would you like a bag for your items?",
+      "Hello! Do you need a bag for your purchases?",
       "Greetings! Need a bag for your shopping?",
       "Hey! Would you prefer a bag for your purchases?",
     ],
-    correctAnswer: 0,
-    file: "mp3/need_a_bag.mp3",
+    correctAnswer: 1,
+    file: "mp3/bag.mp3",
   },
   {
     title: "¿Has probado nuestra restaurante en la azotea? ",
     alternatives: [
-      "Have you tried our rooftop restaurant? ",
       "Did you explore our cafeteria? ",
       "Consider visiting our café?",
       "Have you checked out the café?",
+      "Have you tried our rooftop restaurant? ",
     ],
-    correctAnswer: 0,
+    correctAnswer: 3,
     file: "mp3/restaurant.mp3",
   },
   {
     title: "Tenemos una promoción especial para clientes leales este mes.",
     alternatives: [
-      "We have a special promotion for loyal customers this month.",
       "Exclusive deals await our loyal customers this month.",
       "This month brings special offers for our loyal patrons.",
+      "We have a special promotion for loyal customers this month.",
       "Loyal customers can enjoy unique promotions this month.",
     ],
-    correctAnswer: 0,
+    correctAnswer: 2,
     file: "mp3/loyal.mp3",
-  }
-
+  },
 ];
