@@ -456,12 +456,12 @@ let questions = [
     file: "mp3/sale.mp3",
   },
   {
-    title: "Hola, ¿en qué puedo ayudarte hoy?",
+    title: "Hola ¿En que puedo ayudarle?",
     alternatives: [
-      "Hello, how can I help you today?",
-      "Hi, what can I assist you with today?",
+      "Hello, how may I help you?",
+      "Hi, what can I assist you with ?",
       "Greetings, how may I be of service?",
-      "Hey there, what brings you in today?",
+      "Hey there, what brings you ?",
     ],
     correctAnswer: 0,
     file: "mp3/help.mp3",
@@ -481,7 +481,6 @@ let questions = [
   {
     title: "¿Necesitas ayuda con la talla o el color?",
     alternatives: [
-      "Do you need help with the size or color?",
       "Can I assist you with the size or color?",
       "Need assistance with size or color?",
       "Size or color, would you like some guidance?",
@@ -532,7 +531,7 @@ let questions = [
       "Considering the El Corte Inglés tourist card could be beneficial.",
     ],
     correctAnswer: 2,
-    file: "/mp3/tourist.mp3",
+    file: "mp3/tourist.mp3",
   },
   {
     title: "¿Necesitas ayuda para encontrar la sección de juguetes?",
@@ -591,15 +590,15 @@ let questions = [
     file: "mp3/loyal.mp3",
   },
   {
-    title: "Asegúrase de guardar su recibo en la bolsa para tenerlo todo en un solo lugar.",
+    title:
+      "Asegúrase de guardar su recibo en la bolsa para tenerlo todo en un solo lugar.",
     alternatives: [
-      
       "Be sure to place your receipt in the bag so that everything is together.",
       "Make sure to keep your receipt in the bag to have everything in one place.",
       "Ensure your receipt goes into the bag for convenient organization.",
       "Keep your receipt in the bag for easy access to all your items.",
     ],
     correctAnswer: 1,
-    file: "/mp3/receipt_and_bag.mp3",
+    file: "mp3/receipt_and_bag.mp3",
   },
 ];
