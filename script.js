@@ -100,7 +100,7 @@ let app = {
       // not correct
       console.log("wrong");
       this.showResult(false);
-      navigator.vibrate(200, 100, 200, 100, 200);
+      navigator.vibrate([200, 100, 200, 100, 200]);
       playAudio("mp3/incorrect.mp3");
 
       let random = Math.floor(Math.random() * 7);
