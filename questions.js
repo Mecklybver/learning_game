@@ -522,7 +522,7 @@ let questions = [
     file: "mp3/products.mp3",
   },
   {
-    title: "¿Has considerado obtener nuestra tarjeta tursita?",
+    title: "¿Has considerado obtener nuestra tarjeta turista?",
     alternatives: [
       "Did you think about getting the El Corte Inglés tourist card?",
       "Have you explored the benefits of the El Corte Inglés tourist card?",
